@@ -35,11 +35,14 @@ INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
+    
+    
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'authapp',
     'rest_framework',
+   
 ]
 
 MIDDLEWARE = [
@@ -143,3 +146,6 @@ EMAIL_USE_TLS = True
 MAX_OTP_TRY = 3
 MAX_OTP_LENGTH =6
 MIN_PASSWORD_LENGTH = 8
+
+
+
